@@ -1,12 +1,13 @@
 # About Project
-This CSV file table extracted from Milton S. Love's *"Checklist of marine and estuarine fishes from the Alaska–Yukon Border, Beaufort Sea, to Cabo San Lucas, Mexico"* PDF file using Claude API.
+This table was extracted from a PDF of a monograph published in *Zootaxa* titled  *"Checklist of marine and estuarine fishes from the Alaska–Yukon Border, Beaufort Sea, to Cabo San Lucas, Mexico"* by Milton S. Love and others (https://doi.org/10.11646/zootaxa.5053.1.1) using the Claude API.
 
-The data initially in PDF format has been processed and converted into a CSV table for future tasks. It includes information about **species_name, latitude, longitude, location_discription, depth_range**
+The data initially in PDF format has been processed and converted into a CSV table for future tasks. It includes fields for **species name, latitude, longitude, location description, and depth range**
 
-<ins> It's important to note that the data from Pdf is not entirely precise, and represents the best possible collection of available information. </ins> 
+<ins> It's important to note that the data from the monograph may not be comprehensive, but represents the best possible collection of available information. </ins> 
 
-The code uses claude-3-haiku-20240307 as the model. It assumes having a .env file with Claude API Key in the working directory.
-## Input
+The Python code below was used to extract the data from the PDF. It uses claude-3-haiku-20240307 as the model and assumes an .env file with Claude API Key exists in the working directory. 
+
+### Code
 ```python
 import dotenv
 dotenv.load_dotenv()
@@ -65,7 +66,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-## Output
+### Example Output
 ```
 Eptatretus deani,NA,NA,South-eastern Alaska to Islas San Benito, central Baja California,52-2743 m
 ...
