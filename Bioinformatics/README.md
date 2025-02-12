@@ -6,6 +6,7 @@ The data initially in PDF format has been processed and converted into a CSV tab
 <ins> It's important to note that the data from the monograph may not be comprehensive, but represents the best possible collection of available information. </ins> 
 
 The Python code below was used to extract the data from the PDF. It uses claude-3-haiku-20240307 as the model and assumes an .env file with Claude API Key exists in the working directory. 
+Note: Claude has an inbuilt token limit, so you can't submit the entire PDF at once, but you can chunk the PDF before submitting it.
 
 ### Code
 ```python
