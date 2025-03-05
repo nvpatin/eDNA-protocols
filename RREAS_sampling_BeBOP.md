@@ -138,6 +138,7 @@ The process of setting up sampling equipment and filtering seawater will take ~2
 | Sterile collection bags, 3.7 L | Nasco Whirl-Pak® Write-On Bag, 3.7 L capacity (#WPB01446WA) | Millipore Sigma | 1 box | 1 bag per water sample |
 | 50-mL tubes | Falcon 50 mL high clarity conical centrifuge tube | Corning Falcon | 4 | Can be substituted with generic. Must be sterile. |
 | Serological pipette | Greiner Bio-One 10mL Sterile Serological Pipets | Fisher Scientific | 3 | Depends on # of pump tubes|
+| Cryovials | Nalgene™ General Long-Term Storage Cryogenic Tubes, 2 mL | Thermo Fisher | 1 per sample | |
 | Cryolabels | Cryo-Babies® Labels (Z366218) | Millipore Sigma | 1 roll | Can be substituted with generic but must be resistant to freezing. |
 | Gloves | Powder-free nitrile gloves | Generic brand | 1 box | Can be any generic brand of gloves |
 | Field notebook | Hard cover notebook | Generic brand | 1 | Encouraged to keep a digital sample log in addition to written notes |
@@ -194,7 +195,7 @@ The process of setting up sampling equipment and filtering seawater will take ~2
 
 #### Sample preservation
 
-1. Remove the Swinnex filter housing, carefully unscrew the housing parts. Remove the filter and place it in a new cryovial using decontaminated forceps. 
+1. Remove the Swinnex filter housing, carefully unscrew the housing parts. Remove the filter using decontaminated forceps. If possible, roll the filter into a little tube. Otherwise, fold it into quarters (use both sets of forceps). Place it in a new cryovial.
 2. Label the cryovial and store at -20°C immediately.
 3. On the sample sheet, record the date, time, latitute, longitude, volume filtered and any notes about the sample. This information should be entered into an Excel spreadsheet every few days to maintain a digital copy in addition to the paper copy.
 
