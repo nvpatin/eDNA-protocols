@@ -5,12 +5,12 @@ project: CalCOFI 'Omics Lab Protocols
 purpose: biodiversity assessment objective [OBI:0001969]
 analyses: DNA extraction [OBI:0000257]
 geographic_location: North East Pacific Ocean [GAZ:00013765]
-broad_scale_environmental_context:oceanic epipelagic zone biome [ENVO:01000035], marine biome [ENVO:00000447], marine photic zone [ENVO:00000209]
+broad_scale_environmental_context: oceanic epipelagic zone biome [ENVO:01000035], marine biome [ENVO:00000447], marine photic zone [ENVO:00000209]
 environmental_medium: sea water [ENVO:00002149]
 target: environmental DNA [NCIT:C169106]
 creator: Nastassia Patin, Julie Dinasquet
 materials_required: fume hood [CHMO:0010020], vortexer [OBI:0400118], centrifuge [OBI:0400106] 
-time_required: 1440
+time_required: 1080
 personnel_required: 1
 language: en
 issued: March 2025
@@ -38,14 +38,23 @@ nucl_acid_ext_method_additional: not applicable
 
 # CalCOFI Protocol for Extracting eDNA from Water Filters using Phenol:Chloroform
 
-## Abstract
+## ABSTRACT
 This protocol describes the extraction of DNA from 47 mm filters stored without buffer using phenol:chloroform and an isopropanol precipitation.
 
-## Minimum Information about an Omics Protocol (MIOP)
+## PROTOCOL INFORMATION
 
-See https://github.com/BeBOP-OBON/miop/blob/main/model/schema/terms.yaml for list and definitions.
+### Minimum Information about an Omics Protocol (MIOP)
 
-## Authors
+- MIOP terms are listed in the YAML frontmatter of this page.
+- See <https://github.com/BeBOP-OBON/miop/blob/main/model/schema/terms.yaml> for list and definitions.
+
+### Making eDNA FAIR (FAIRe)
+
+- FAIRe terms are listed in the YAML frontmatter of this page.
+- See <https://fair-edna.github.io/download.html> for the FAIRe checklist and more information.
+- See <https://fair-edna.github.io/guidelines.html#missing-values> for guidelines on missing values that can be used for missing FAIRe or MIOP terms.
+ 
+## AUTHORS
 
 | **PREPARED BY**    | **AFFILIATION**             |   **ORCID**    |  **DATE**  |
 |----------------------------------|--------------------------------------|---------|-----------|
@@ -79,33 +88,33 @@ Version numbers start at "1.0.0" when the protocol is first completed and will i
 | ------------- | ------------- |
 | Extraction blank | A type of negative control to confirm there is no contamination during DNA extractions. Normally an empty filter extracted and PCR amplified alongside other samples. |
 
-# Background
+## BACKGROUND
 This document describes the required protocol to extract environmental DNA from flat 47 mm filters stored without buffer.
 
-## Summary
+### Summary
 
 This protocol was developed to process eDNA samples from marine environments. A typical filtration method entails filtering water onto 47 mm-diameter flat membranes enclosed in Swinnex housings. These filters are then stored in cryovials or tubes without storage buffer and frozen at -80° C. The use of phenol is considered a rigorous approach to DNA extraction with resulting DNA relatively free from impurities; therefore, this protocol is often used when experimental goals include detection of rare targets such as marine mammals.
 
-## Method description and rationale
+### Method Description adn Rationale
 This protocol contains an overnight cell lysis stage using a commercially available buffer and proteinase K, a DNA extraction and purification stage using phenol:chloroform:isoamyl alcohol (25:24:1), and an isopropanol precipitation stage to maximize DNA yield. The filters are cut up to maximize the surface area exposed to the lysis buffer. Phenol extraction helps separate nucleic acids from other cellular components. After centrifugation, the DNA remains in the aqueous phase, allowing for further isolation and purification. An unused filter should be extracted alongside field samples for an extraction blank to identify any lab contamination.
 
-## Personnel Required
+### Personnel Required
 One person with molecular biology experience.
 
-## Safety
+### Safety
 **Chloroform** is classified as toxic, a health hazard, and an irritant. Chloroform can be absorbed through the skin, and it can cause severe eye and skin irritation or be harmful if ingested. It is also classified as a possible human carcinogen.
 **Phenol** is classified as toxic, corrosive, a health hazard, and environmentally damaging. Phenol can cause serious eye burns and skin damage, as well as pose a general risk to aquatic life and environments. It causes very painful burns that can bleach the skin and take a long time to heal. Phenol is a solid that readily deliquesces, which can lead those not familiar with the material to assume droplets are simply water, leading to accidental burns or improper clean up.
 All steps involving phenol and chloroform should be performed in a fume hood. Users should wear appropriate PPE including nitrile gloves, a lab coat, closed toed shoes, and eye protection. Coat sleeves should extend to the gloves to ensure no skin is exposed. If exposure to the lab coat occurs with solutions containing phenol, remove the coat immediately. In case of skin contact with phenol, wash teh area with polyethylene glycol (PEG) or water. For chloroform exposure, rinse thoroughly with water.  Properly seal tubes and bottles before transport to minimize fume dispersal and splashing. Treat all used solutions as hazardous waste and dispose of them according to laboratory guidelines. 
 
-## Training requirements
+### Training requirements
 
 Molecular biology training (including, at a minimum, sterile technique, pipetting small volumes, and running a centrifuge) is required to conduct this protocol.
 
-## Time needed to execute the procedure
+### Time needed to execute the procedure
 
 This protocol requires approximately 6 hours of labor, including 1 hour and 45 minutes for DNA lysis and around 4 hours for extraction and purification. It also includes an overnight incubation step. Users should plan to complete the extraction in 18 hours over two days.
 
-# EQUIPMENT
+## EQUIPMENT
 
 
 | **Description**              | **Product Name and Model**                  | **Manufacturer**    | **Quantity** | **Remark**                              |
@@ -198,7 +207,7 @@ This protocol requires approximately 6 hours of labor, including 1 hour and 45 m
 1. Dispose of phenol/chloroform waste appropriately into a designated waste bottle.
 2. Ensure that gloves and all disposable materials are placed in designated lab waste bins.
 
-# Quality Control
+## Quality Control
 - Verify the presence of DNA using PCR and gel electrophoresis.
 - Ensure no contamination is present by running appropriate controls (negative controls without template DNA).
 
