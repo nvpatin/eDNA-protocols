@@ -220,3 +220,4 @@ Not applicable.
 
 ## APPENDIX B: VIDEO & IMAGE FILES
 
+[Swinnex filter assembly with images](https://github.com/nvpatin/eDNA-protocols/blob/main/Images/SOP%20Swinnex%20assembly.docx)
