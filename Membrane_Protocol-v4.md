@@ -1,62 +1,120 @@
-# Abstract
-This protocol describes the extraction of DNA from 47 mm filters using the phenol:chloroform method without storage buffer.
+---
+# MIOP terms
+methodology_category: sample extraction and purification
+project: CalCOFI 'Omics Lab Protocols
+purpose: biodiversity assessment objective [OBI:0001969]
+analyses: DNA extraction [OBI:0000257]
+geographic_location: North East Pacific Ocean [GAZ:00013765]
+broad_scale_environmental_context: oceanic epipelagic zone biome [ENVO:01000035], marine biome [ENVO:00000447], marine photic zone [ENVO:00000209]
+environmental_medium: sea water [ENVO:00002149]
+target: environmental DNA [NCIT:C169106]
+creator: Nastassia Patin, Julie Dinasquet
+materials_required: fume hood [CHMO:0010020], vortexer [OBI:0400118], centrifuge [OBI:0400106] 
+time_required: 1080
+personnel_required: 1
+language: en
+issued: March 2025
+audience: scientists
+publisher: California Cooperative Oceanic Fisheries Investigations
+hasVersion: 1
+license: CC0 1.0 Universal
+maturity level: mature
 
-# Authors
+# FAIRe terms
+samp_size: 2-60
+samp_vol_we_dna_ext: 1-30
+samp_vol_we_dna_ext_unit: L
+nucl_acid_ext_lysis: chemical
+nucl_acid_ext_sep: ethanol
+nucl_acid_ext: https://www.protocols.io/view/phenol-chloroform-dna-isolation-for-environmental-4r3l26bxv1y9/v1
+nucl_acid_ext_modify: Addition of Proteinase K during lysis incubation; overnight lysis incubation; use isopropanol + NaAcetate instead of ethanol + NaCl during preciptation; final incubation at 4°C
+dna_cleanup_0_1: 0
+concentration: not applicable
+concentration_method: not applicable
+ratioOfAbsorbance260_280: not applicable
+pool_dna_num: not applicable
+nucl_acid_ext_method_additional: not applicable
+---
+
+# CalCOFI Protocol for Extracting eDNA from Water Filters using Phenol:Chloroform
+
+## ABSTRACT
+This protocol describes the extraction of DNA from 47 mm filters stored without buffer using phenol:chloroform and an isopropanol precipitation.
+
+## PROTOCOL INFORMATION
+
+### Minimum Information about an Omics Protocol (MIOP)
+
+- MIOP terms are listed in the YAML frontmatter of this page.
+- See <https://github.com/BeBOP-OBON/miop/blob/main/model/schema/terms.yaml> for list and definitions.
+
+### Making eDNA FAIR (FAIRe)
+
+- FAIRe terms are listed in the YAML frontmatter of this page.
+- See <https://fair-edna.github.io/download.html> for the FAIRe checklist and more information.
+- See <https://fair-edna.github.io/guidelines.html#missing-values> for guidelines on missing values that can be used for missing FAIRe or MIOP terms.
+ 
+## AUTHORS
 
 | **PREPARED BY**    | **AFFILIATION**             |   **ORCID**    |  **DATE**  |
 |----------------------------------|--------------------------------------|---------|-----------|
 | **Nastassia Patin** | Scripps Institution of Oceanography, UCSD | 0000-0001-8522-7682 | 09.27.2024 |
-| **Julie Dinasquet**                      | Scripps Institution of Oceanography, UCSD  | 0000-0002-3401-764X 
+| **Julie Dinasquet**                      | Scripps Institution of Oceanography, UCSD  | 0000-0002-3401-764X | 09.27.2024
 
-# Minimum Information about an Omics Protocol (MIOP)
+## PROTOCOL REVISION RECORD
 
-| **Field**                       | **Details**                                              |
-|----------------------------------|----------------------------------------------------------|
-| **Methodology Category**         | sample extraction and purification                       |
-| **Project**                      | [Your Project Name]                                      |
-| **Purpose**                      | DNA extraction                                           |
-| **Analyses**                     | DNA extraction [OBI:0000257]                             |
-| **Geographic Location**          | [Your Geographic Location]                               |
-| **Broad-scale Environmental Context** | marine biome [ENVO:00000447]                         |
-| **Local Environmental Context**  | [Your Local Environmental Context]                       |
-| **Environmental Medium**         | sea water [ENVO:00002149]                                |
-| **Target**                       | deoxyribonucleic acid [CHEBI:16991]                      |
-| **Creator**                      | Nastassia Patin, Julie Dinasquet                         |
-| **Materials Required**           | centrifuge [OBI:0400106], heatshaker   |
-| **Skills Required**              | sterile technique, pipetting skills                      |
-| **Time Required**                | 1 day (DNA lysis: ~1h45; incubation: overnight; DNA extraction: ~4h)            |
-| **Personnel Required**           | 1 person                                                 |
-| **Language**                     | English                                                  |
-| **Audience**                     | scientists                                               |
-| **Maturity Level**               | mature                                                   |
+Version numbers start at "1.0.0" when the protocol is first completed and will increase when changes that impact the outcome of the procedure are made (patches: 1.0.1; minor changes: 1.1.0; major changes: 2.0.0). Please store all versions in the gDrive folder designated to your institute.
 
-# Background
+| VERSION  | RELEASE DATE | DESCRIPTION OF REVISIONS | 
+| ------------- | ------------- | ------------- |
+| 1.0.0  | 2025-01-29  | Initial release  |
+| 1.1.0	| 2025-03-06 | Added FAIRe terms and acronyms |
+
+## ACRONYMS AND ABBREVIATIONS
+
+| ACRONYM / ABBREVIATION | DEFINITION |
+| ------------- | ------------- |
+| NOAA | National Oceanic and Atmospheric Administration |
+| eDNA | environmental DNA |
+| PPE | Personal protective equipment |
+| EtOH | Ethanol |
+| SDS | Sodium dodecyl sulfate |
+| TE | Tris-EDTA |
+
+
+## GLOSSARY
+
+| SPECIALISED TERM | DEFINITION |
+| ------------- | ------------- |
+| Extraction blank | A type of negative control to confirm there is no contamination during DNA extractions. Normally an empty filter extracted and PCR amplified alongside other samples. |
+
+## BACKGROUND
 This document describes the required protocol to extract environmental DNA from flat 47 mm filters stored without buffer.
 
-## Summary
+### Summary
 
 This protocol was developed to process eDNA samples from marine environments. A typical filtration method entails filtering water onto 47 mm-diameter flat membranes enclosed in Swinnex housings. These filters are then stored in cryovials or tubes without storage buffer and frozen at -80° C. The use of phenol is considered a rigorous approach to DNA extraction with resulting DNA relatively free from impurities; therefore, this protocol is often used when experimental goals include detection of rare targets such as marine mammals.
 
-## Method description and rationale
-This protocol contains an overnight cell lysis stage using a commercially available buffer and proteinase K, a DNA extraction and purification stage using phenol:chloroform:isoamyl alcohol (25:24:1), and an isopropanol precipitation stage to maximize DNA yield free from impurities. The filters are cut up to maximize the surface area exposed to the lysis buffer. Phenol extraction helps separate nucleic acids from other cellular components. After centrifugation, the DNA remains in the aqueous phase, allowing for further isolation and purification.
+### Method Description adn Rationale
+This protocol contains an overnight cell lysis stage using a commercially available buffer and proteinase K, a DNA extraction and purification stage using phenol:chloroform:isoamyl alcohol (25:24:1), and an isopropanol precipitation stage to maximize DNA yield. The filters are cut up to maximize the surface area exposed to the lysis buffer. Phenol extraction helps separate nucleic acids from other cellular components. After centrifugation, the DNA remains in the aqueous phase, allowing for further isolation and purification. An unused filter should be extracted alongside field samples for an extraction blank to identify any lab contamination.
 
-## Personnel Required
+### Personnel Required
 One person with molecular biology experience.
 
-## Safety
+### Safety
 **Chloroform** is classified as toxic, a health hazard, and an irritant. Chloroform can be absorbed through the skin, and it can cause severe eye and skin irritation or be harmful if ingested. It is also classified as a possible human carcinogen.
 **Phenol** is classified as toxic, corrosive, a health hazard, and environmentally damaging. Phenol can cause serious eye burns and skin damage, as well as pose a general risk to aquatic life and environments. It causes very painful burns that can bleach the skin and take a long time to heal. Phenol is a solid that readily deliquesces, which can lead those not familiar with the material to assume droplets are simply water, leading to accidental burns or improper clean up.
 All steps involving phenol and chloroform should be performed in a fume hood. Users should wear appropriate PPE including nitrile gloves, a lab coat, closed toed shoes, and eye protection. Coat sleeves should extend to the gloves to ensure no skin is exposed. If exposure to the lab coat occurs with solutions containing phenol, remove the coat immediately. In case of skin contact with phenol, wash teh area with polyethylene glycol (PEG) or water. For chloroform exposure, rinse thoroughly with water.  Properly seal tubes and bottles before transport to minimize fume dispersal and splashing. Treat all used solutions as hazardous waste and dispose of them according to laboratory guidelines. 
 
-## Training requirements
+### Training requirements
 
 Molecular biology training (including, at a minimum, sterile technique, pipetting small volumes, and running a centrifuge) is required to conduct this protocol.
 
-## Time needed to execute the procedure
+### Time needed to execute the procedure
 
 This protocol requires approximately 6 hours of labor, including 1 hour and 45 minutes for DNA lysis and around 4 hours for extraction and purification. It also includes an overnight incubation step. Users should plan to complete the extraction in 18 hours over two days.
 
-# EQUIPMENT
+## EQUIPMENT
 
 
 | **Description**              | **Product Name and Model**                  | **Manufacturer**    | **Quantity** | **Remark**                              |
@@ -80,6 +138,8 @@ This protocol requires approximately 6 hours of labor, including 1 hour and 45 m
 | Nitrile gloves                | Powder free nitrile gloves                  | Fisher Scientific   | 8            | Must be sterilized before use (10% bleach followed by 70% EtOH). |
 | Trash bags for BSC            | Teivio 1.2 Gallon 360 Counts Strong Trash Bags | Teivio           | 3            | For biohazard waste disposal. |
 | **Chemicals**                        |                                          |                      |              |                             |
+| DNAZap	|	DNAZap™ Solutions | 	Thermo Fisher	| 1 bottle | Degrades nucleic acids and decontaminates surfaces and labware. Can be substituted with DNA AWAY or 10% bleach solution. |
+| Ethanol (70%) |	Molecular biology grade ethanol dilution |	Fisher Scientific	| 1 bottle |  Kills bacteria to decontaminate surfaces. |
 | ATL buffer                           | ATL buffer (for DNA extraction)          | QIAGEN               | 20 mL        | Standard DNA extraction buffer.         |
 | 1X TE buffer                         | Tris-EDTA buffer                         | Fisher Scientific    | 10 mL        | Can be substituted with generic.        |
 | Proteinase K (20 mg mL⁻¹)            | Qiagen Proteinase K                      | Qiagen               | 1.92 mL      | Molecular biology grade.                |
@@ -110,7 +170,7 @@ This protocol requires approximately 6 hours of labor, including 1 hour and 45 m
    - Mix by pipetting and vortex briefly.
 
 4. **Incubation**: 
-   - Seal the tubes with parafilm and incubate them overnight at 56°Cn with gentle shaking.
+   - Seal the tubes with parafilm and incubate them overnight at 56°C with gentle shaking.
 
 ## Day 2: DNA Extraction, Separation, and Purification (~4 hours)
 
@@ -128,17 +188,17 @@ This protocol requires approximately 6 hours of labor, including 1 hour and 45 m
    - Vortex, centrifuge for 5 minutes at maximum speed, and transfer the upper phase to new tubes.
 
 4. **DNA Precipitation**:
-   - Add 1/10 volume of NaAcetate and 0.6 volume of ice-cold isopropanol to precipitate the DNA.
+   - Add 1/10 volume of sodium acetate and 0.6 volume of ice-cold isopropanol to precipitate the DNA.
    - Vortex and incubate at -20°C for at least 1 hour.
 
 5. **Centrifugation and Washing**:
    - Centrifuge at 15,000 rpm for 20 minutes at 4°C. Carefully remove the supernatant (this can be done manually or with a vacuum manifold).
    - Wash the pellet with 0.5 mL of 70% ice-cold ethanol. Vortex and centrifuge for 20 minutes at 15,000 rpm and 4°C.
-   - Remove the supernatant (manually or with a vacuum manifold) and dry the pellet under the fume hood for 20 minutes.
+   - Remove the supernatant (manually or with a vacuum manifold) and air dry the pellet under the fume hood for 20 minutes.
 
 6. **Dissolve the DNA**: 
    - Dissolve the dried DNA pellet in 40 µL of 1X TE buffer. Vortex gently.
-   - Incubate at 4°C for a few hours or overnight and store the samples at -20°C.
+   - Incubate at 4°C for 2 hours and store the samples at -20°C.
 
 7. **DNA Quantification**:
    - Quantify the DNA using the Qubit Broad Range kit.
@@ -147,7 +207,7 @@ This protocol requires approximately 6 hours of labor, including 1 hour and 45 m
 1. Dispose of phenol/chloroform waste appropriately into a designated waste bottle.
 2. Ensure that gloves and all disposable materials are placed in designated lab waste bins.
 
-# Quality Control
+## Quality Control
 - Verify the presence of DNA using PCR and gel electrophoresis.
 - Ensure no contamination is present by running appropriate controls (negative controls without template DNA).
 
