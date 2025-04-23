@@ -1,9 +1,4 @@
-### Quick Links:
-
-- [Background](#BACKGROUND)
-- [Equipment](#EQUIPMENT)
-- [Standard Operating Procedure (main protocol)](#STANDARD-OPERATING-PROCEDURE)
-
+---
 # MIOP terms
 methodology_category: Omics Analysis
 project: MiFish PCR Optimization
@@ -16,7 +11,7 @@ target: 12S mitochondrial ribosomal RNA  [NCIT:C128263]
 creators: Flora Coden, Nastassia Patin 
 materials_required: thermal cycler [OBI:0400116], gel electrophoresis system [OBI:0001121]|
 skills_required: sterile technique, pipetting skills, standard molecular technique
-time_required:180
+time_required: 180
 personnel_required: 1
 language: English 
 issued: 2025-04-16
@@ -61,13 +56,29 @@ pcr_rep: 1.0
 pcr_cond: initial denaturation:98_0.5; denaturation:98_0.1667;annealing:60_0.1667;elongation:72_.5;final elongation:72_5;38
 annealingTemp: 60
 pcr_cycles: 38
+---
 
-## AUTHORS
+# CalCOFI MiFish Optimization PCR Protocol, 60°C Annealing Temp (12S rRNA V5-V6) 
+
+## PROTOCOL INFORMATION
+
+### Minimum Information about an Omics Protocol (MIOP)
+
+- MIOP terms are listed in the YAML frontmatter of this page.
+- See <https://github.com/BeBOP-OBON/miop/blob/main/model/schema/terms.yaml> for list and definitions.
+
+### Making eDNA FAIR (FAIRe)
+
+- FAIRe terms are listed in the YAML frontmatter of this page.
+- See <https://fair-edna.github.io/download.html> for the FAIRe checklist and more information.
+- See <https://fair-edna.github.io/guidelines.html#missing-values> for guidelines on missing values that can be used for missing FAIRe or MIOP terms.
+
+### Authors
 
 | PREPARED BY All authors known to have contributed to the preparation of this protocol, including those who filled in the template.  | AFFILIATION | ORCID | DATE |
 | ------------- | ------------- | ------------- | ------------- |
-| Flora Coden  | Scripps Institution of Oceanography  | N/A | 2025-04-16 |
-|  Nastassia Patin  | California Cooperative Oceanic Fisheries Investigations  | <https://orcid.org/0000-0001-8522-7682> | 2025-04-16 |
+| Flora Coden  | Scripps Institution of Oceanography  | N/A | 2025-04-23 |
+|  Nastassia Patin  | California Cooperative Oceanic Fisheries Investigations  | <https://orcid.org/0000-0001-8522-7682> | 2025-04-23 |
 
 ## RELATED PROTOCOLS
 
