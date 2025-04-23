@@ -1,9 +1,4 @@
-### Quick Links:
-
-- [Background](#BACKGROUND)
-- [Equipment](#EQUIPMENT)
-- [Standard Operating Procedure (main protocol)](#STANDARD-OPERATING-PROCEDURE)
-
+---
 # MIOP terms
 methodology_category: Omics Analysis
 project: MiFish PCR Optimization
@@ -61,8 +56,25 @@ pcr_rep: 1.0
 pcr_cond: initial denaturation:98_0.5; denaturation:98_0.1667;annealing:60_0.5;elongation:72_.75;final elongation:72_10;35
 annealingTemp: 60
 pcr_cycles: 35
+---
 
-## AUTHORS
+# CalCOFI MMARINeDNA MiFish PCR Protocol (12S rRNA V5-V6) 
+
+## PROTOCOL INFORMATION
+
+### Minimum Information about an Omics Protocol (MIOP)
+
+- MIOP terms are listed in the YAML frontmatter of this page.
+- See <https://github.com/BeBOP-OBON/miop/blob/main/model/schema/terms.yaml> for list and definitions.
+
+### Making eDNA FAIR (FAIRe)
+
+- FAIRe terms are listed in the YAML frontmatter of this page.
+- See <https://fair-edna.github.io/download.html> for the FAIRe checklist and more information.
+- See <https://fair-edna.github.io/guidelines.html#missing-values> for guidelines on missing values that can be used for missing FAIRe or MIOP terms.
+
+ 
+### Authors
 
 | PREPARED BY  | AFFILIATION | ORCID  | DATE |
 | ------------- | ------------- | ------------- | ------------- |
@@ -79,7 +91,7 @@ pcr_cycles: 35
 | Qubit dsDNA HS Assay| [Qubit dsDNA HS Assay] (https://tools.thermofisher.com/content/sfs/manuals/Qubit_dsDNA_HS_Assay_UG.pdf)| B.0 | 2015-03-05 | Protocol for using the Qubit to quantify DNA|
 # BACKGROUND
 
-This protocol describes steps for performing PCR for the 12S MiFish marker gene regions using eDNA extracted from sea water. 
+This protocol describes steps for performing PCR for the 12S MiFish marker gene regions using eDNA extracted from sea water. It was developed by the Multi
 
 
 ## Summary
