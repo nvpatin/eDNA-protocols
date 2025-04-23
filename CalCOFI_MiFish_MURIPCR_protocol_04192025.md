@@ -11,7 +11,7 @@ target: 12S mitochondrial ribosomal RNA  [NCIT:C128263]
 creators: Flora Coden, Nastassia Patin 
 materials_required: thermal cycler [OBI:0400116], gel electrophoresis system [OBI:0001121]|
 skills_required: sterile technique, pipetting skills, standard molecular technique
-time_required:180
+time_required: 180
 personnel_required: 1
 language: English 
 issued: 2025-04-16
@@ -78,8 +78,8 @@ pcr_cycles: 35
 
 | PREPARED BY  | AFFILIATION | ORCID  | DATE |
 | ------------- | ------------- | ------------- | ------------- |
-| Flora Coden  | Scripps Institution of Oceanography  | N/A | 2025-04-16 |
-|  Nastassia Patin  | California Cooperative Oceanic Fisheries Investigations  | <https://orcid.org/0000-0001-8522-7682> | 2025-04-16 |
+| Flora Coden  | Scripps Institution of Oceanography, UC San Diego  | N/A | 2025-04-23 |
+|  Nastassia Patin  | California Cooperative Oceanic Fisheries Investigations  | <https://orcid.org/0000-0001-8522-7682> | 2025-04-23 |
 
 ## RELATED PROTOCOLS
 
