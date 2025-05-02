@@ -14,7 +14,7 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 180
 personnel_required: 1
 language: English 
-issued: 2025-04-16
+issued: 2025-04-25
 audience: scientists
 publisher: California Cooperative Oceanic Fisheries Investigations
 maturity level: mature
@@ -25,7 +25,7 @@ env_medium: sea water [ENVO:00002149]
 # FAIRe terms
 pcr_0_1: 1
 amplificationReactionVolume: 20
-assay_name: MBARI60_mifish
+assay_name: MBARI62_mifish
 assay_validation: not provided
 targetTaxonomicAssay: 12S rRNA gene sequencing the V5-V6 region using primers MiFish F MiFish-U-F_mod and MiFish-U-R
 TaxonomicScope: fishes
@@ -48,15 +48,14 @@ probe_seq: not applicable
 probe_ref: not applicable
 probe_conc: not applicable
 commercial_mm: 2X Platinum SuperFi II MM
-custom_mm: PCR reactions were run in 25 µL reaction volumes, with 2.0 µL of DNA, 12.5 µL of 2X Platinum SuperFi II MM, 7.5 µL of water, and 1.5 µL of each primer (10 µM).
+custom_mm: PCR reactions were run in 25 uL reaction volumes, with 2.0 uL of DNA, 12.5 uL of 2X Platinum SuperFi II MM, 7.5 uL of water, and 1.5 uL of each primer (10 uM).
 pcr_dna_vol: 2.0
 pcr_rep: 1.0
-pcr_cond: initial denaturation:98_0.5; denaturation:98_0.1667;annealing:60_0.1667;elongation:72_.5;final elongation:72_5;38
-annealingTemp: 60
+pcr_cond: initial denaturation:98_0.5; denaturation:98_0.1667;annealing:62_0.1667;elongation:72_.5;final elongation:72_5;38
+annealingTemp: 62
 pcr_cycles: 38
 ---
-
-# CalCOFI MiFish Optimization PCR Protocol, 60°C Annealing Temp (12S rRNA V5-V6) 
+# CalCOFI MiFish Optimization PCR Protocol, 62°C Annealing Temp (12S rRNA V5-V6) 
 
 ## PROTOCOL INFORMATION
 
@@ -87,16 +86,13 @@ pcr_cycles: 38
 | RREAS Water eDNA Sampling Protocol| [RREAS Water eDNA Sampling Protocol] (https://github.com/nvpatin/eDNA-protocols/blob/main/RREAS_sampling_BeBOP.md)| 1.0.0| 2025-03-06 | Samples for this project were taken using the methods outlined in the protocol|
 | Qubit dsDNA HS Assay| [Qubit dsDNA HS Assay] (https://tools.thermofisher.com/content/sfs/manuals/Qubit_dsDNA_HS_Assay_UG.pdf)| B.0 | 2015-03-05 | Protocol for using the Qubit to quantify DNA|
 
-
 # BACKGROUND
 
 This protocol describes steps for performing PCR for the 12S MiFish marker gene regions using eDNA extracted from sea water. 
 
-
 ## Summary
 
 The purpose of this protocol is to conduct PCR to optimize teleost fish detection using the MiFish primer set. 
-
 
 ## Method description and rationale
 
@@ -147,10 +143,10 @@ Protocol takes about 3 hours including set-up and thermal cycler run time.
 | Milli-Q quality water | Milli-Q Type 1 Ultrapure Water Systems| EMD Millipore | 4 µL per sample well |  |
 | 2X Platinum SuperFi II MM | Invitrogen Platinum SuperFi II PCR Master Mix (2X), Cat. No. 12361010 | Thermo Scientific| 12.5 µL per sample well| |
 | TBE Buffer (10x)| TBE Buffer 10X Solution, Molecular Biology Grade, UltraPure| Thermo Scientific | 100 µL |  |
-|Agarose| Agarose LE, Molecular Biology Grade, UltraPure | Thermo Scientific|4g  | Primer must be diluted from 100uM stocks to 10µM|
-| SYBR Safe|  SYBR Safe DNA Gel Stain| Invitrogen|  20uL| Light sensitive - do not expose to light
+|Agarose| Agarose LE, Molecular Biology Grade, UltraPure | Thermo Scientific|4g  | Primer must be diluted from 100 µM stocks to 10 µM|
+| SYBR Safe|  SYBR Safe DNA Gel Stain| Invitrogen|  20 µL| Light sensitive - do not expose to light
 | Gel stain loading dye | DNA Gel Loading Dye (6x)|Thermo Scientific|480 µl (per plate)
-| 100bp DNA Ladder| Generuler 100 bp DNA Ladder | Thermo Scientific| 6 µl per lane on gel | Primer must be diluted from 100uM stocks to 10 µM|
+| 100bp DNA Ladder| Generuler 100 bp DNA Ladder | Thermo Scientific| 6 µl per lane on gel | Primer must be diluted from 100uM stocks to 10µM|
 | Parafilm| Parafilm M Lab Film| Generic | 1 roll| Can substitute with generic brand |
 | **Chemicals** |
 | EtOH | Ethanol| Generic Brand | 1 wash bottle | Must be molecular grade ethanol |
@@ -162,7 +158,7 @@ Protocol takes about 3 hours including set-up and thermal cycler run time.
 
 ## Preparation
 
-1. Dilute primers from 100 µM to 10 µM if not already at 10 µM.
+1. Dilute primers from 100 uM to 10 µM if not already at 10µM.
 2. Set up PCR under hood by wiping all surfaces, pipettes, and racks with bleach and ethanol and UV sterilization for 5-10 mins.
 
 ### PCR
@@ -181,11 +177,11 @@ Protocol takes about 3 hours including set-up and thermal cycler run time.
 
 | reagent | volume | intial concentration| final concentration|
 | ----- | ----- | ----- |----- |
-| 2X Platinum SuperFi II MM | 12.5 µL | 2 |1 |
-| 10 uM Forward Primer | 1.5 µL | 10 µM |.6 µM |
-| 10 uM Reverse Primer | 1.5 µL | 10 uM |.6 µM |
-| Nuclease-Free Water| 7.5 µL |  | |
-| Template DNA| 2 µL (1-10 µL recommended)|  | |
+| 2X Platinum SuperFi II MM | 12.5µL | 2 |1 |
+| 10 µM Forward Primer | 1.5uL | 10µM |.6µM |
+| 10 µM Reverse Primer | 1.5uL | 10µM |.6µM |
+| Nuclease-Free Water| 7.5µL |  | |
+| Template DNA| 2uL (1-10µL recommended)|  | |
 
 **PCR Cycling Program**: 
 
@@ -193,14 +189,12 @@ Protocol takes about 3 hours including set-up and thermal cycler run time.
 | ----- | ----- | ----- | ----- |
 | Initial Denaturation | 98ºC | 30 s | 1x|
 | Denaturation | 98ºC | 10s | 38x |
-| Annealing | 60ºC | 10s | 38x |
+| Annealing | 62ºC | 10s | 38x |
 | Extension | 72ºC | 30s | 38x |
 | Final Extension | 72ºC | 5min | 1x |
 | Hold | 4ºC | Infinity | |
 
-
 ### Quality control, PCR clean-up
-
 
 2% Agarose Gel Following PCR amplification
 
@@ -212,8 +206,8 @@ Protocol takes about 3 hours including set-up and thermal cycler run time.
 6. Pour the gel mixture slowly into the tray and remove any bubbles using a pipette tip.
 7. Allow gel to set for 30-45 min.
 8. Cut large strips of parafilm or use 8-strip tubes and label each sample as a position on the parafilm/tubes.
-9. Combine 10 µL PCR product with 2uL loading dye and DNA stain such as SYBR to visualize the product on an agarose gel. Pipette to mix 2-3 times.
-10. Once the gel is set, load it with the samples (12 µL total). Also add 1 µL of ladder into its own well combined with 1uL loading dye and 4 µL MilliQ water.
+9. Combine 10 uL PCR product with 2uL loading dye and DNA stain such as SYBR to visualize the product on an agarose gel. Pipette to mix 2-3 times.
+10. Once the gel is set, load it with the samples (12 uL total). Also add 1uL of ladder into its own well combined with 1uL loading dye and 4uL MilliQ water.
 13. Fill the gel box with enough TBE buffer (1x) to fully submerge the gel beneath ~1cm of buffer.
 14. Run gel at ~100 V for 40-50 min then visualize on gel reader machine.
 
