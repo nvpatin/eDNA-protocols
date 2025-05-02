@@ -19,3 +19,5 @@ Protocols for sampling, processing, and analysis of eDNA collected on CalCOFI cr
 [12S PCR developed for the MURI MMARINeDNA Project](CalCOFI_MiFish_MURIPCR_protocol_04192025.md)
 
 [12S PCR developed for optimization experiment, 60°C annealing](CalCOFI_MiFish_PCR_MBARI60_04192025.md) 
+
+[12S PCR developed for optimization experiment, 62°C annealing](CalCOFI_MiFish_PCR_MBARI62_04252025.md)
