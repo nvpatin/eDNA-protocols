@@ -3,7 +3,7 @@ Protocols for sampling, processing, and analysis of eDNA collected on CalCOFI cr
 
 ## Sample collection
 
-[RREAS sampling protocol from Niskin bottles](RREAS_sampling_BeBOP.md)
+[RREAS sampling protocol from Niskin bottles](https://github.com/CalCOFI/eDNA_sampling_RREAS)
 
 #### Sampling from ship's underway water system
 
