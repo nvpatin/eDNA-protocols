@@ -10,12 +10,14 @@ Protocols for sampling, processing, and analysis of eDNA collected on CalCOFI cr
 #### Cleaning protocol for sampling materials
 
 ## DNA Extraction
-[Extracting from membrane filters](Membrane_Protocol-v4.md)
+[Phenol:chloroform Extraction from Membrane Filters](Membrane_Protocol-v4.md)
 
-[Extracting from Sterivex](Sterivex_Protocol-v3.md)
+[Phenol:chloroform Extraction from Sterivex](Sterivex_Protocol-v3.md)
 
 ## PCR
 
 [12S PCR developed for the MURI MMARINeDNA Project](CalCOFI_MiFish_MURIPCR_protocol_04192025.md)
 
 [12S PCR developed for optimization experiment, 60°C annealing](CalCOFI_MiFish_PCR_MBARI60_04192025.md) 
+
+[12S PCR developed for optimization experiment, 62°C annealing](CalCOFI_MiFish_PCR_MBARI62_04252025.md)
