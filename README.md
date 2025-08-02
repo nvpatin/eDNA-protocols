@@ -21,3 +21,5 @@ Protocols for sampling, processing, and analysis of eDNA collected on CalCOFI cr
 [12S PCR developed for optimization experiment, 60°C annealing](https://github.com/CalCOFI/MBARI-60-MiFish-protocol) 
 
 [12S PCR developed for optimization experiment, 62°C annealing](https://github.com/CalCOFI/MBARI-62-MiFish-PCR-Protocol)
+
+[d-loop PCR developed for ceteacean detections](https://github.com/CalCOFI/MURI-d_loop-PCR-protocol)
